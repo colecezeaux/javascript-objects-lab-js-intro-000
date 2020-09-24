@@ -7,5 +7,6 @@ function updateObjectWithKeyAndValue(obj, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  return recipes["prop2"] = 2
+  recipes = recipes["prop2"] = "2"
+  return recipes
 }
